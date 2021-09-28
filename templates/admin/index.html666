@@ -1,0 +1,23 @@
+
+
+
+{% block %}
+
+{{ super() }}
+
+ {% if current_user.is_authenticated %}
+
+<h1>Flask-Admin example</h1>
+        <p>
+            Authentication
+        </p>
+        <p>
+            This example shows how you can use Flask-Login for authentication. It is only intended as a basic demonstration.
+        </p>
+        {% else %}
+      <h1>NOT aaaaaaaaaaaaaaaa</h1>  
+        {% endif %}
+    </div>
+
+
+{% endblock %}
