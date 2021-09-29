@@ -29,7 +29,7 @@ from userlogin import UsersLogin
 from flask_admin.contrib.sqla import ModelView
 from flask_admin import helpers, expose
 from flask_admin.contrib import sqla
-import flask_admin
+import flask_admin as ad
 
 
 #admin = Admin(app)
